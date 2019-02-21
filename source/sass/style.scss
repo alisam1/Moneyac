@@ -1,0 +1,64 @@
+@import "variables.scss";
+@import "blocks/normalize.scss";
+@import "blocks/container.scss";
+@import "blocks/page_header.scss";
+@import "blocks/main.scss";
+@import "blocks/payment.scss";
+@import "blocks/about.scss";
+@import "blocks/page__footer.scss";
+
+
+body
+{
+  background-color: #ffffff;
+}
+
+
+@font-face {
+	font-family: 'SF-Regular';
+	src: url("../fonts/SF/SFUIDisplay-Regular.eot") format("embedded-opentype"),
+       url("../fonts/SF/SFUIDisplay-Regular.woff") format('woff'),
+       url("../fonts/SF/SFUIDisplay-Regular.ttf") format('truetype'),
+       url("../fonts/SF/SF-Pro-Display-Regular.otf") format("opentype");
+
+}
+
+@font-face {
+	font-family: 'SF-Medium';
+  src: url("../fonts/SF/SFUIDisplay-Medium.eot") format("embedded-opentype"),
+       url("../fonts/SF/SFUIDisplay-Medium.woff") format('woff'),
+       url("../fonts/SF/SFUIDisplay-Medium.ttf") format('truetype'),
+       url("../fonts/SF/SF-Pro-Display-Medium.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'SF-Bold';
+  src: url("../fonts/SF/SFUIDisplay-Bold.eot") format("embedded-opentype"),
+       url("../fonts/SF/SFUIDisplay-Bold.woff") format('woff'),
+       url("../fonts/SF/SFUIDisplay-Bold.ttf") format('truetype'),
+       url("../fonts/SF/SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'SF-Semibold';
+  src:  url("../fonts/SF/SFUIDisplay-Semibold.eot") format("embedded-opentype"),
+        url("../fonts/SF/SFUIDisplay-Semibold.woff") format('woff'),
+        url("../fonts/SF/SFUIDisplay-Semibold.ttf") format('truetype'),
+        url("../fonts/SF/SF-Pro-Display-Semibold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'SF-Black';
+  src:  url("../fonts/SF/SFUIDisplay-Black.eot") format("embedded-opentype"),
+        url("../fonts/SF/SFUIDisplay-Black.woff") format('woff'),
+        url("../fonts/SF/SFUIDisplay-Black.ttf") format('truetype'),
+        url("../fonts/SF/SF-Pro-Display-Black.otf") format("opentype");
+}
+
+
+body
+{
+  background-image: url("../img/bg_full.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

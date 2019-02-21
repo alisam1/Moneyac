@@ -1,0 +1,126 @@
+.payment
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  background-image: url("../img/payment_bg.png");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.payment__img
+{
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  left: 45px;
+}
+
+.payment__mocup {
+  position: relative;
+}
+ .payment__mocup img {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  width: 100%;
+  height: auto;
+}
+
+.payment__description
+{
+  width:50%;
+  margin-left: 50px;
+  padding-right: 140px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 0px;
+}
+
+.payment__title
+{
+  width: 470px;
+  font-family: "SF-Black", sans-serif;
+  font-size: 28px;
+  line-height: 38px;
+  color: #cccccc;
+  padding-top: 120px;
+  padding-right: 80px;
+}
+
+.payment__list
+{
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  list-style-image: url("../img/item_icon.png");
+  position: relative;
+  bottom: 20px;
+}
+
+.payment__item
+{
+  font-family: "SF-Medium", sans-serif;
+  font-size: 13px;
+  line-height: 23px;
+  padding-bottom: 10px;
+  color: #cccccc;
+}
+
+.payment__item:nth-child(3)
+{
+  padding-bottom: 0px;
+}
+
+.payment__item span
+{
+  position: relative;
+  bottom: 10px;
+  left: 15px;
+}
+
+.payment__button
+{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0071ff;
+    font-family: "SF-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin-left: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 60px;
+}
+
+.payment__geo
+{
+  width: 450px;
+  font-family: "SF-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 27px;
+  color: #cccccc;
+  padding-top: 90px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 130px;
+}
+
+.payment__geo::after
+{
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 22px;
+  background-image: url("../img/rf_icon.png");
+  margin-left: 15px;
+  margin-top: 0px;
+}

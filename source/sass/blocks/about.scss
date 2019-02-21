@@ -1,0 +1,42 @@
+.about__title
+{
+  font-family: "SF-Black", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about__info
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.about__block
+{
+  width: 400px;
+  height: 370px;
+  background-image: url("../img/block_bg.png");
+  margin-bottom: 40px;
+  margin-top: -50px;
+}
+
+.about__block img
+{
+  text-align: center;
+  margin-top: 140px;
+  margin-left: 210px;
+
+}
+
+.about__description
+{
+  width: 230px;
+  font-family: "SF-Medium", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 130px;
+
+}

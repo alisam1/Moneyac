@@ -1,0 +1,68 @@
+.page_header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.page_header__logo
+{
+  width: 175px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.menu__list
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+.menu__item
+{
+  padding-right: 40px;
+  font-family: "SF-Semibold", sans-serif;
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.menu__item:nth-child(4)
+{
+  padding-right: 0;
+}
+
+.menu__item a
+{
+  text-decoration: none;
+  cursor: pointer;
+  color: #404040;
+}
+
+.login_auth
+{
+  padding-top: 30px;
+}
+
+.login_auth::before
+{
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  background-image: url("../img/login_icon.png");
+  margin-left: -40px;
+}
+
+.login_auth a
+{
+  font-family: "SF-Semibold", sans-serif;
+  font-size: 15px;
+  padding-top: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #404040;
+}
