@@ -552,6 +552,9 @@ template {
   margin-left: 15px;
   margin-top: 0px; }
 
+.about {
+  margin-bottom: 90px; }
+
 .about__title {
   font-family: "SF-Black", sans-serif;
   font-size: 30px;
