@@ -383,6 +383,10 @@ template {
   .menu__list {
     display: none; } }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu__list {
+    display: none; } }
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -731,10 +735,7 @@ template {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+          flex-direction: row; }
 
 .footer__top {
   display: -webkit-box;
