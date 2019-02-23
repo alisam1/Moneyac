@@ -10,7 +10,7 @@
 
 body
 {
-  background-color: #ffffff;
+  background-color: #fcfcfc;
 }
 
 
@@ -53,12 +53,4 @@ body
         url("../fonts/SF/SFUIDisplay-Black.woff") format('woff'),
         url("../fonts/SF/SFUIDisplay-Black.ttf") format('truetype'),
         url("../fonts/SF/SF-Pro-Display-Black.otf") format("opentype");
-}
-
-
-body
-{
-  background-image: url("../img/bg_full.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
