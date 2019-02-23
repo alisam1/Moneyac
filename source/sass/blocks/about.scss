@@ -9,23 +9,23 @@
   font-size: 30px;
   line-height: 40px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .about__info
 {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
-  justify-content: space-between;
+  margin-top: 0px;
+  justify-content: center;
 }
 
 .about__block {
-    width: 400px;
+    width: 350px;
     height: 370px;
     background-image: url("../img/bg_block_desktop.png");
     margin-bottom: 40px;
-    margin-top: -50px;
+    margin-top: 0px;
     background-size: cover;
 }
 

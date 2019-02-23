@@ -2,14 +2,14 @@
 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .page_header__logo
 {
   width: 175px;
   height: 50px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 
@@ -19,12 +19,12 @@
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
-  margin-left: -20px;
+  margin-left: -250px;
 }
 
 .menu__item
 {
-  padding-right: 40px;
+  padding-right: 70px;
   font-family: "SF-Semibold", sans-serif;
   font-size: 15px;
   padding-top: 30px;
@@ -54,7 +54,8 @@
   width: 22px;
   height: 20px;
   background-image: url("../img/login_icon.png");
-  margin-left: -40px;
+  margin-left: -185px;
+  margin-top: -2px;
 }
 
 .login_auth a
@@ -65,6 +66,7 @@
   text-decoration: none;
   cursor: pointer;
   color: #404040;
+  margin-left: -150px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1270px) {
