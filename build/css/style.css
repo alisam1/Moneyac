@@ -485,13 +485,46 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1270px) {
   .main {
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 50px; }
-  .main__img img {
-    height: 300px;
+  .main__desktop {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .main__title {
+    width: 330px;
+    font-family: 'SF-Black', sans-serif;
+    font-size: 30px;
+    color: #000;
+    margin-left: 40px; }
+  .main__description {
+    margin-left: 40px; }
+  .main__img {
+    width: auto;
     position: relative;
-    left: 20px;
-    margin-top: 130px; }
+    left: 0px;
+    bottom: 45px; }
+  .main__img img {
+    height: 340px;
+    position: relative;
+    left: 0px;
+    margin-top: 30px; }
+  .main__button {
+    width: 210px;
+    height: 55px;
+    margin-left: 40px;
+    margin-top: 20px; }
+  .button_description {
+    position: relative;
+    bottom: 5px;
+    right: 10px; }
+  .button_description::after {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 15px;
+    background-image: url("../img/arr_icon.png");
+    margin-left: 15px;
+    margin-top: 10px; }
   .main__mobile {
     display: none; } }
 
@@ -602,13 +635,13 @@ template {
   position: absolute;
   left: 0;
   top: 150px;
-  width: 100%;
+  width: 85%;
   height: auto; }
 
 .payment__description {
   width: 40%;
   margin-left: 50px;
-  padding-right: 140px;
+  padding-right: 40px;
   margin-bottom: 10px;
   position: relative;
   left: 0px; }
@@ -699,16 +732,17 @@ template {
         -ms-flex-pack: justify;
             justify-content: space-between;
     height: auto;
-    background-image: url("../img/payment_bg.png");
-    background-size: contain;
+    background-image: url("../img/bg_payment_tablet.png");
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     z-index: 1; }
   .payment__img {
-    width: 65%;
+    width: 100%;
     overflow: hidden;
     position: relative;
-    left: 27px; }
+    left: 0px;
+    margin-top: 40px; }
   .payment__mocup--mobile img {
     display: none; }
   .payment__mocup {
@@ -718,20 +752,21 @@ template {
     left: 0;
     top: 35px;
     width: 100%;
-    height: auto; }
+    height: 420px; }
   .payment__description {
     width: 35%;
     margin-left: 0px;
-    padding-right: 140px;
+    padding-right: 130px;
     margin-bottom: 10px;
     position: relative;
-    left: 0px; }
+    left: 0px;
+    margin-top: 50px; }
   .payment__title--mobile {
     display: none; }
   .payment__title {
-    width: 400px;
+    width: 350px;
     font-family: "SF-Black", sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 30px;
     color: #cccccc;
     padding-top: 20px;
@@ -745,12 +780,12 @@ template {
     bottom: 20px; }
   .payment__item {
     font-family: "SF-Medium", sans-serif;
-    font-size: 13px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 28px;
     padding-bottom: 10px;
     color: #cccccc; }
   .payment__button {
-    width: 200px;
+    width: 210px;
     height: 50px;
     border: none;
     border-radius: 50px;
@@ -762,20 +797,28 @@ template {
     margin-left: 0px;
     margin-top: 0px;
     cursor: pointer;
-    margin-top: 10px;
-    margin-left: -90px;
-    position: relative;
-    bottom: 70px; }
+    margin-top: 25px;
+    margin-left: -115px;
+    position: relative; }
+  .button_description::after {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 15px;
+    background-image: url("../img/arr_icon.png");
+    margin-left: 15px;
+    margin-top: 5px; }
   .payment__geo {
     width: 450px;
     font-family: "SF-Medium", sans-serif;
-    font-size: 12px;
-    line-height: 27px;
+    font-size: 14px;
+    line-height: 28px;
     color: #cccccc;
-    padding-top: 90px;
-    margin-left: -150px;
-    position: relative;
-    bottom: 163px; } }
+    padding-top: 80px;
+    margin-left: -210px;
+    position: relative; }
+  .payment__geo::after {
+    display: none; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .payment {
@@ -920,25 +963,20 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1270px) {
   .about__title {
-    margin-top: -100px; }
+    margin-top: 40px; }
   .about__block {
-    width: 250px;
-    height: 370px;
-    background-image: url("../img/block_bg.png");
-    margin-bottom: 40px;
-    margin-top: -50px;
+    width: 100%;
+    height: auto;
+    background-image: url("../img/bg_block_desktop.png");
     background-size: cover; }
   .about__block img {
-    text-align: center;
-    margin-top: 80px;
-    margin-left: 120px; }
+    text-align: center; }
   .about__description {
-    width: 180px;
+    width: 195px;
     font-family: "SF-Medium", sans-serif;
     font-size: 14px;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 60px; } }
+    margin-bottom: 40px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .about {
@@ -993,6 +1031,9 @@ template {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+
+.footer__personal {
+  display: none; }
 
 .footer__top {
   width: 70%;
@@ -1089,10 +1130,12 @@ template {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .footer__item--personal {
+    display: none; }
   .footer__top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1100,7 +1143,19 @@ template {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            flex-direction: row; }
+            flex-direction: row;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .footer__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%; }
   .footer__about {
     width: 100%;
     display: -webkit-box;
@@ -1113,6 +1168,14 @@ template {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin-left: 0; }
+  .footer__personal {
+    display: block;
+    font-family: "SF-Semibold";
+    font-size: 13px;
+    line-height: 30px;
+    color: #404040;
+    position: relative;
+    bottom: 7px; }
   .footer__logo {
     margin-top: -10px; }
   .footer__info {
@@ -1170,6 +1233,8 @@ template {
         justify-content: space-around;
     width: 100%;
     margin-left: 0; }
+  .footer__personal {
+    display: none; }
   .footer__right {
     width: 50%;
     display: -webkit-box;

@@ -38,7 +38,7 @@
   position: absolute;
   left: 0;
   top: 150px;
-  width: 100%;
+  width: 85%;
   height: auto;
 }
 
@@ -46,7 +46,7 @@
 {
   width:40%;
   margin-left: 50px;
-  padding-right: 140px;
+  padding-right: 40px;
   margin-bottom: 10px;
   position: relative;
   left: 0px;
@@ -151,8 +151,8 @@
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    background-image: url("../img/payment_bg.png");
-    background-size: contain;
+    background-image: url("../img/bg_payment_tablet.png");
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
@@ -160,10 +160,11 @@
 
   .payment__img
   {
-    width: 65%;
+    width: 100%;
     overflow: hidden;
     position: relative;
-    left: 27px;
+    left: 0px;
+    margin-top: 40px;
   }
 
   .payment__mocup--mobile img
@@ -174,22 +175,23 @@
   .payment__mocup {
     position: relative;
   }
-   .payment__mocup img {
+  .payment__mocup img {
     position: absolute;
     left: 0;
     top: 35px;
     width: 100%;
-    height: auto;
-  }
+    height: 420px;
+}
 
   .payment__description
   {
     width:35%;
     margin-left: 0px;
-    padding-right: 140px;
+    padding-right: 130px;
     margin-bottom: 10px;
     position: relative;
     left: 0px;
+    margin-top: 50px;
   }
 
   .payment__title--mobile
@@ -197,15 +199,14 @@
     display: none;
   }
 
-  .payment__title
-  {
-    width: 400px;
-    font-family: "SF-Black", sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    color: #cccccc;
-    padding-top: 20px;
-    padding-right: 0px;
+  .payment__title {
+      width: 350px;
+      font-family: "SF-Black", sans-serif;
+      font-size: 24px;
+      line-height: 30px;
+      color: #cccccc;
+      padding-top: 20px;
+      padding-right: 0px;
   }
 
   .payment__list
@@ -221,41 +222,56 @@
   .payment__item
   {
     font-family: "SF-Medium", sans-serif;
-    font-size: 13px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 28px;
     padding-bottom: 10px;
     color: #cccccc;
   }
 
   .payment__button {
-    width: 200px;
-    height: 50px;
-    border: none;
-    border-radius: 50px;
-    background-color: #0071ff;
-    font-family: "SF-Bold", sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    color: #fff;
-    margin-left: 0px;
-    margin-top: 0px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-left: -90px;
-    position: relative;
-    bottom: 70px;
-}
+      width: 210px;
+      height: 50px;
+      border: none;
+      border-radius: 50px;
+      background-color: #0071ff;
+      font-family: "SF-Bold", sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      color: #fff;
+      margin-left: 0px;
+      margin-top: 0px;
+      cursor: pointer;
+      margin-top: 25px;
+      margin-left: -115px;
+      position: relative;
+  }
+
+  .button_description::after {
+
+      content: "";
+      position: absolute;
+      width: 21px;
+      height: 15px;
+      background-image: url("../img/arr_icon.png");
+      margin-left: 15px;
+      margin-top: 5px;
+
+  }
 
 .payment__geo {
     width: 450px;
     font-family: "SF-Medium", sans-serif;
-    font-size: 12px;
-    line-height: 27px;
+    font-size: 14px;
+    line-height: 28px;
     color: #cccccc;
-    padding-top: 90px;
-    margin-left: -150px;
+    padding-top: 80px;
+    margin-left: -210px;
     position: relative;
-    bottom: 163px;
+}
+
+.payment__geo::after
+{
+  display: none;
 }
 
 }
