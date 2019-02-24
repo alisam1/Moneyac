@@ -192,6 +192,13 @@
        flex-direction: column-reverse;
      }
 
+     .footer__logo {
+        width: 115px;
+        height: 30px;
+        position: relative;
+        top: 5px;
+      }
+
      .footer__top
      {
        display: flex;
@@ -227,9 +234,10 @@
      {
        display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: center;
       width: 100%;
       margin-left: 0;
+      margin-bottom: 20px;
      }
 
      .footer__name {
@@ -238,7 +246,8 @@
       color: #404040;
       text-transform: uppercase;
       width: 120px;
-      margin-top: 18px;
+      position: relative;
+      left: 20px;
       }
 
      .footer__personal
