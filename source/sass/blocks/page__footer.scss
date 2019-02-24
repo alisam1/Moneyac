@@ -195,7 +195,7 @@
      .footer__top
      {
        display: flex;
-       flex-direction: row;
+       flex-direction: column;
        width: 100%;
      }
 
@@ -206,9 +206,25 @@
        width: 100%;
      }
 
+     .footer__item--personal span
+     {
+       display: block;
+     }
+
+     .footer__list--double
+     {
+       position: relative;
+       right: 40px;
+     }
+
+     .footer__contacts
+     {
+       text-align: left;
+     }
+
+
      .footer__about
      {
-       display: flex;
        display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -233,41 +249,21 @@
      .footer__right
      {
        display: flex;
-       flex-direction: column;
-       margin-left: -20px;
+       flex-direction: row;
+       justify-content: space-around;
+       width: 100%;
+
+
      }
 
      .footer__left
      {
        display: flex;
-       flex-direction: column;
-       margin-left: 20px;
-     }
+       flex-direction: row;
+       justify-content: space-around;
+       width: 100%;
 
-     .footer__list--platform
-     {
-       margin-left: -20px;
-       position: relative;
-       bottom: 5px;
-     }
-
-     .footer__contacts
-     {
-       text-align: left;
-       margin-left: 0px;
-       margin-left: -20px;
-       position: relative;
-       top: 5px;
-     }
-
-     .footer__list--one
-     {
-       margin-top: -25px;
      }
 
 
-     .footer__list--double
-      {
-        margin-top: -35px;
-      }
 }
