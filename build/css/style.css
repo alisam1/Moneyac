@@ -903,12 +903,13 @@ template {
   .payment__title--mobile {
     display: block; }
   .payment__description {
-    width: 100%;
+    width: 80%;
     margin-left: 0px;
     padding-right: 0px;
     margin-bottom: 10px;
     position: relative;
-    left: 0px; }
+    left: 0px;
+    margin: 0 auto; }
   .payment__list {
     width: 70%;
     padding-top: 50px;
@@ -929,8 +930,26 @@ template {
     left: 0px; }
   .payment__button {
     display: none; }
+  .payment__geo::after {
+    display: none; }
+  .payment__geo::after {
+    content: "";
+    position: absolute;
+    width: 33px;
+    height: 22px;
+    background-image: url("../img/rf_icon.png");
+    margin-left: 15px;
+    margin-top: 0px; }
+  .payment__geo::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 16px;
+    background-image: url("../img/flag_mobile.png");
+    margin-left: -35px;
+    margin-top: 5px; }
   .payment__geo {
-    width: 250px;
+    width: 60%;
     font-family: "SF-Medium", sans-serif;
     font-size: 14px;
     line-height: 18px;
@@ -939,7 +958,9 @@ template {
     margin-left: 70px;
     position: relative;
     bottom: 70px;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    margin: 0 auto;
+    padding-top: 20px; }
   .payment__geo::before {
     content: "";
     position: absolute;
