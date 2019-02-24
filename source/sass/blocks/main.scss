@@ -72,6 +72,16 @@
   cursor: pointer;
 }
 
+.main__button:focus
+{
+  background-color: #0559c2;
+}
+
+.main__button:active
+{
+  background-color: #0559c2;
+}
+
 .button_description
 {
   position: relative;
@@ -204,6 +214,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 20px;
   }
 
   .main__title
@@ -250,6 +262,16 @@
     margin-left: 40px;
     margin-top: 20px;
     cursor: pointer;
+  }
+
+  .main__button:focus
+  {
+    background-color: #0559c2;
+  }
+
+  .main__button:active
+  {
+    background-color: #0559c2;
   }
 
   .button_description

@@ -42,6 +42,23 @@
   color: #404040;
 }
 
+.menu__item a:focus
+{
+  color: #0071ff;
+  border-bottom: 1px solid #0071ff;
+}
+
+.menu__item a:active
+{
+  color: #0071ff;
+  border-bottom: 1px solid #0071ff;
+}
+
+.page_header__login--tablet
+{
+  display: none;
+}
+
 .login_auth
 {
   padding-top: 30px;
@@ -76,11 +93,31 @@
     display: none;
   }
 
+  .page_header__logo
+  {
+    display: none;
+  }
+
+  .page_header__login
+  {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
   .menu__list
+  {
+    display: none;
+  }
+
+  .page_header__logo
+  {
+    display: none;
+  }
+
+  .page_header__login
   {
     display: none;
   }
