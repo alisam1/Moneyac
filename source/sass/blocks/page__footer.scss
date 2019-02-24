@@ -192,10 +192,18 @@
        flex-direction: column-reverse;
      }
 
+     .footer__top
+     {
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+     }
+
      .footer__bottom
      {
        display: flex;
        flex-direction: row;
+       width: 100%;
      }
 
      .footer__about
@@ -208,6 +216,15 @@
       margin-left: 0;
      }
 
+     .footer__name {
+      font-family: "SF-Medium", sans-serif;
+      font-size: 13px;
+      color: #404040;
+      text-transform: uppercase;
+      width: 120px;
+      margin-top: 18px;
+      }
+
      .footer__personal
      {
        display: none;
@@ -215,16 +232,32 @@
 
      .footer__right
      {
-       width: 50%;
        display: flex;
        flex-direction: column;
+       margin-left: -20px;
      }
 
      .footer__left
      {
        display: flex;
        flex-direction: column;
-       width: 50%;
+       margin-left: 20px;
+     }
+
+     .footer__list--platform
+     {
+       margin-left: -20px;
+       position: relative;
+       bottom: 5px;
+     }
+
+     .footer__contacts
+     {
+       text-align: left;
+       margin-left: 0px;
+       margin-left: -20px;
+       position: relative;
+       top: 5px;
      }
 
      .footer__list--one
