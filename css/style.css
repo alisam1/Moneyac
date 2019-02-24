@@ -1022,7 +1022,8 @@ template {
     font-family: "SF-Black", sans-serif;
     font-size: 30px;
     line-height: 40px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 30px; }
   .about__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1248,6 +1249,11 @@ template {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse; }
+  .footer__logo {
+    width: 115px;
+    height: 30px;
+    position: relative;
+    top: 5px; }
   .footer__top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1281,17 +1287,20 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
-    margin-left: 0; }
+    margin-left: 0;
+    margin-bottom: 20px; }
   .footer__name {
     font-family: "SF-Medium", sans-serif;
     font-size: 13px;
     color: #404040;
     text-transform: uppercase;
     width: 120px;
-    margin-top: 18px; }
+    position: relative;
+    left: 20px; }
   .footer__personal {
     display: none; }
   .footer__right {
