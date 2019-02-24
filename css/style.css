@@ -1054,10 +1054,12 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 auto;
     padding-top: 0px; }
   .about__block {
-    width: 100%;
     background-image: url("../img/bg_about_mobile.png");
     background-repeat: no-repeat;
     margin: 0 auto;
