@@ -1022,8 +1022,7 @@ template {
     font-family: "SF-Black", sans-serif;
     font-size: 30px;
     line-height: 40px;
-    text-align: center;
-    margin-top: 50px; }
+    text-align: center; }
   .about__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1047,7 +1046,7 @@ template {
     margin: 0 auto;
     display: block;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 70px;
     width: 50px; }
   .about__description {
     width: 180px;
@@ -1249,6 +1248,15 @@ template {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse; }
+  .footer__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%; }
   .footer__bottom {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1256,7 +1264,8 @@ template {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            flex-direction: row; }
+            flex-direction: row;
+    width: 100%; }
   .footer__about {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1270,17 +1279,24 @@ template {
         justify-content: space-around;
     width: 100%;
     margin-left: 0; }
+  .footer__name {
+    font-family: "SF-Medium", sans-serif;
+    font-size: 13px;
+    color: #404040;
+    text-transform: uppercase;
+    width: 120px;
+    margin-top: 18px; }
   .footer__personal {
     display: none; }
   .footer__right {
-    width: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    margin-left: -20px; }
   .footer__left {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1289,7 +1305,17 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 50%; }
+    margin-left: 20px; }
+  .footer__list--platform {
+    margin-left: -20px;
+    position: relative;
+    bottom: 5px; }
+  .footer__contacts {
+    text-align: left;
+    margin-left: 0px;
+    margin-left: -20px;
+    position: relative;
+    top: 5px; }
   .footer__list--one {
     margin-top: -25px; }
   .footer__list--double {
