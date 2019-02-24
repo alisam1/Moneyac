@@ -1,8 +1,8 @@
 {
-  "name": "Moniac",
+  "name": "Moneyac",
   "version": "1.0.1",
   "private": true,
-  "description": "Moniac",
+  "description": "Moneyac",
   "devDependencies": {
     "autoprefixer": "8.3.x",
     "browser-sync": "^2.24.4",
