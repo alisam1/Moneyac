@@ -1068,16 +1068,16 @@ template {
     margin: 0 auto;
     display: block;
     margin: auto;
-    padding-top: 70px;
+    padding-top: 80px;
     width: 50px; }
   .about__description {
-    width: 180px;
+    width: 220px;
     font-family: "SF-Medium", sans-serif;
     font-size: 12px;
     text-align: center;
     margin: auto;
     display: block;
-    padding-top: 20px; } }
+    padding-top: 30px; } }
 
 .page__footer {
   display: -webkit-box;
