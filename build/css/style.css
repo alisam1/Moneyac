@@ -488,6 +488,12 @@ template {
   margin-top: 0px;
   cursor: pointer; }
 
+.main__button:active, .main__button:focus {
+  outline: none !important; }
+
+.main__button::-moz-focus-inner {
+  border: 0 !important; }
+
 .main__button:focus {
   background-color: #0559c2; }
 
@@ -724,7 +730,7 @@ template {
 
 .payment__item span {
   position: relative;
-  bottom: 10px;
+  bottom: 8px;
   left: 15px; }
 
 .payment__button {
