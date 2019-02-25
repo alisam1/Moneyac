@@ -702,7 +702,7 @@ template {
 .payment__mocup img {
   position: absolute;
   right: 100px;
-  top: 100px;
+  top: 170px;
   width: 100%;
   height: auto; }
 
@@ -715,13 +715,13 @@ template {
   left: 0px; }
 
 .payment__title {
-  width: 400px;
+  width: auto;
   font-family: "SF-Black", sans-serif;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 30px;
+  line-height: auto;
   color: #cccccc;
-  padding-top: 130px;
-  padding-right: 80px; }
+  padding-top: 170px;
+  padding-right: 40px; }
 
 .payment__title--mobile {
   display: none; }
@@ -736,8 +736,8 @@ template {
 
 .payment__item {
   font-family: "SF-Medium", sans-serif;
-  font-size: 13px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 28px;
   padding-bottom: 10px;
   color: #cccccc; }
 
@@ -768,10 +768,13 @@ template {
   font-size: 12px;
   line-height: 27px;
   color: #cccccc;
-  padding-top: 90px;
+  padding-top: 0px;
   margin-left: 20px;
   position: relative;
-  bottom: 130px; }
+  bottom: 0;
+  vertical-align: top;
+  padding-bottom: 200px;
+  margin-top: -30px; }
 
 .payment__geo::after {
   content: "";
