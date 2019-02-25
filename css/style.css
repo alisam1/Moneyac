@@ -410,7 +410,23 @@ template {
     bottom: 40px;
     z-index: 9999; }
   .login_auth {
-    padding-top: 40px; } }
+    padding-top: 40px; }
+  .login_auth::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    background-image: url("../img/login_icon.png");
+    margin-left: -40px;
+    margin-top: -2px; }
+  .login_auth a {
+    font-family: "SF-Semibold", sans-serif;
+    font-size: 15px;
+    padding-top: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #404040;
+    margin-left: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .menu__list {
@@ -733,26 +749,17 @@ template {
   bottom: 8px;
   left: 15px; }
 
-.payment__button {
-  width: 190px;
-  height: 45px;
-  border: none;
-  border-radius: 50px;
-  background-color: #0071ff;
-  font-family: "SF-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 28px;
-  color: #fff;
+.main__button--payment {
   margin-top: 10px;
   margin-left: 20px;
   position: relative;
   bottom: 60px;
   cursor: pointer; }
 
-.payment__button:hover {
+.main__button--payment:hover {
   background-color: #0559c2; }
 
-.payment__button:active {
+.main__button--payment:active {
   background-color: #044eab; }
 
 .payment__geo {
@@ -840,7 +847,7 @@ template {
     line-height: 28px;
     padding-bottom: 10px;
     color: #cccccc; }
-  .payment__button {
+  .main__button--payment {
     width: 210px;
     height: 50px;
     border: none;
@@ -857,9 +864,9 @@ template {
     margin-left: -115px;
     position: relative;
     cursor: pointer; }
-  .payment__button:focus {
+  .main__button--payment:focus {
     background-color: #0559c2; }
-  .payment__button:active {
+  .main__button--payment:active {
     background-color: #044eab; }
   .button_description::after {
     content: "";
@@ -958,7 +965,7 @@ template {
     position: relative;
     bottom: 8px;
     left: 0px; }
-  .payment__button {
+  .main__button--payment {
     display: none; }
   .payment__geo::after {
     display: none; }
