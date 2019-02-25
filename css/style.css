@@ -399,7 +399,12 @@ template {
   .page_header__logo {
     display: none; }
   .page_header__login {
-    display: none; } }
+    display: block;
+    position: relative;
+    bottom: 40px;
+    z-index: 9999; }
+  .login_auth {
+    padding-top: 40px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .menu__list {
@@ -510,7 +515,7 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1270px) {
   .main {
-    margin-top: 90px;
+    margin-top: 0px;
     margin-bottom: 50px; }
   .main__desktop {
     -ms-flex-pack: distribute;
@@ -1382,7 +1387,7 @@ template {
     left: 0;
     right: 0;
     height: 50px;
-    z-index: 9999999; }
+    z-index: 9998; }
     .mobile-menu__btn {
       position: relative;
       display: -webkit-box;
