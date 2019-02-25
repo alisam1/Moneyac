@@ -373,12 +373,13 @@ template {
   display: none; }
 
 .login_auth {
-  padding-top: 30px; }
+  padding-top: 30px;
+  cursor: pointer; }
 
-.login_auth a:hover {
+.login_auth:hover {
   color: #0071ff; }
 
-.login_auth a:active {
+.login_auth:active {
   color: #044eab; }
 
 .login_auth::before {
@@ -387,10 +388,10 @@ template {
   width: 22px;
   height: 20px;
   background-image: url("../img/login_icon.png");
-  margin-left: -240px;
+  margin-left: -30px;
   margin-top: -2px; }
 
-.login_auth a {
+.login_auth {
   font-family: "SF-Semibold", sans-serif;
   font-size: 15px;
   padding-top: 30px;
@@ -510,7 +511,7 @@ template {
 .main__button::-moz-focus-inner {
   border: 0 !important; }
 
-.main__button:focus {
+.main__button:hover {
   background-color: #0559c2; }
 
 .main__button:active {
