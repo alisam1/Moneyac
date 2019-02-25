@@ -387,7 +387,7 @@ template {
   width: 22px;
   height: 20px;
   background-image: url("../img/login_icon.png");
-  margin-left: -360px;
+  margin-left: -240px;
   margin-top: -2px; }
 
 .login_auth a {
@@ -397,7 +397,7 @@ template {
   text-decoration: none;
   cursor: pointer;
   color: #404040;
-  margin-left: -320px; }
+  margin-left: -210px; }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .menu__list {
@@ -683,9 +683,10 @@ template {
   background-position: center;
   position: relative;
   z-index: 1;
-  padding-top: -45px;
   margin-left: 0px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px; }
 
 .payment__img {
   width: 60%;
@@ -1013,7 +1014,8 @@ template {
     display: none; } }
 
 .about {
-  margin-bottom: 90px; }
+  margin-bottom: 90px;
+  margin-top: -90px; }
 
 .about__title {
   font-family: "SF-Black", sans-serif;
