@@ -37,7 +37,7 @@
  .payment__mocup img {
   position: absolute;
   right: 100px;
-  top: 100px;
+  top: 170px;
   width: 100%;
   height: auto;
 }
@@ -54,13 +54,13 @@
 
 .payment__title
 {
-  width: 400px;
+  width: auto;
   font-family: "SF-Black", sans-serif;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 30px;
+  line-height: auto;
   color: #cccccc;
-  padding-top: 130px;
-  padding-right: 80px;
+  padding-top: 170px;
+  padding-right: 40px;
 }
 
 .payment__title--mobile
@@ -81,8 +81,8 @@
 .payment__item
 {
   font-family: "SF-Medium", sans-serif;
-  font-size: 13px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 28px;
   padding-bottom: 10px;
   color: #cccccc;
 }
@@ -119,17 +119,19 @@
   background-color: #044eab;
 }
 
-.payment__geo
-{
-  width: 450px;
-  font-family: "SF-Medium", sans-serif;
-  font-size: 12px;
-  line-height: 27px;
-  color: #cccccc;
-  padding-top: 90px;
-  margin-left: 20px;
-  position: relative;
-  bottom: 130px;
+.payment__geo {
+    width: 450px;
+    font-family: "SF-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 27px;
+    color: #cccccc;
+    padding-top: 0px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 0;
+    vertical-align: top;
+    padding-bottom: 200px;
+    margin-top: -30px;
 }
 
 .payment__geo::after
