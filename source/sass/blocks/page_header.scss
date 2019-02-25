@@ -121,6 +121,28 @@
     padding-top: 40px;
 }
 
+.login_auth::before
+{
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  background-image: url("../img/login_icon.png");
+  margin-left: -40px;
+  margin-top: -2px;
+}
+
+.login_auth a
+{
+  font-family: "SF-Semibold", sans-serif;
+  font-size: 15px;
+  padding-top: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #404040;
+  margin-left: 0px;
+}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
