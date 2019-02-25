@@ -305,7 +305,7 @@ template {
   width: 1280px;
   margin: 0 auto; }
 
-@media screen and (min-width: 768px) and (max-width: 1270px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .container {
     width: 768px;
     margin: 0 auto; } }
@@ -399,7 +399,7 @@ template {
   color: #404040;
   margin-left: -320px; }
 
-@media screen and (min-width: 768px) and (max-width: 1270px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .menu__list {
     display: none; }
   .page_header__logo {
@@ -541,7 +541,7 @@ template {
   position: relative;
   left: 0px; }
 
-@media screen and (min-width: 768px) and (max-width: 1270px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .main {
     margin-top: 0px;
     margin-bottom: 50px; }
@@ -782,7 +782,7 @@ template {
   margin-left: 15px;
   margin-top: 0px; }
 
-@media screen and (min-width: 768px) and (max-width: 1270px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .payment {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1056,7 +1056,7 @@ template {
   display: block;
   padding-top: 50px; }
 
-@media screen and (min-width: 768px) and (max-width: 1270px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .about__title {
     margin-top: 40px; }
   .about__block {
@@ -1245,7 +1245,7 @@ template {
   color: #0071ff;
   border-bottom: 1px solid #044eab; }
 
-@media screen and (min-width: 768px) and (max-width: 1270px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .footer__desktop {
     display: none; }
   .footer__mobile {
