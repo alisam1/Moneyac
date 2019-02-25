@@ -110,13 +110,22 @@
     font-size: 18px;
     line-height: 28px;
     color: #fff;
-    margin-left: 0px;
-    margin-top: 0px;
-    cursor: pointer;
     margin-top: 10px;
     margin-left: 20px;
     position: relative;
     bottom: 60px;
+    cursor: pointer;
+}
+
+.payment__button:hover
+{
+  background-color: #0559c2;
+}
+
+.payment__button:active
+{
+
+  background-color: #044eab;
 }
 
 .payment__geo
@@ -244,6 +253,18 @@
       margin-top: 25px;
       margin-left: -115px;
       position: relative;
+      cursor: pointer;
+  }
+
+  .payment__button:focus
+  {
+    background-color: #0559c2;
+  }
+
+  .payment__button:active
+  {
+
+    background-color: #044eab;
   }
 
   .button_description::after {

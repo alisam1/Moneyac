@@ -117,6 +117,22 @@
     font-size: 20px;
   }
 
+  &__link:hover {
+    text-decoration: none;
+    color: #0071ff;
+    border-bottom: 1px solid #0071ff;
+    font-family: "SF-Semibold", sans-serif;
+    font-size: 20px;
+  }
+
+  &__link:active {
+    text-decoration: none;
+    color: #044eab;
+    border-bottom: 1px solid #044eab;
+    font-family: "SF-Semibold", sans-serif;
+    font-size: 20px;
+  }
+
   &__checkbox {
       display: none;
 
@@ -183,6 +199,29 @@
   margin-top: 120px;
   position: relative;
   left: 40px;
+}
+
+.page_header__login--mobile .login_auth a {
+    font-family: "SF-Semibold", sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #404040;
+    margin-left: -170px;
+}
+
+
+.page_header__login--mobile .login_auth::before {
+
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    background-image: url("../img/login_icon.png");
+    margin-left: -205px;
+    margin-top: 2px;
+
 }
 
 .mobile-menu {
@@ -270,7 +309,23 @@
     text-decoration: none;
     color: #404040;
     font-family: "SF-Semibold", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+  }
+
+  &__link:hover {
+    text-decoration: none;
+    color: #0071ff;
+    border-bottom: 1px solid #0071ff;
+    font-family: "SF-Semibold", sans-serif;
+    font-size: 20px;
+  }
+
+  &__link:active {
+    text-decoration: none;
+    color: #044eab;
+    border-bottom: 1px solid #044eab;
+    font-family: "SF-Semibold", sans-serif;
+    font-size: 20px;
   }
 
   &__checkbox {

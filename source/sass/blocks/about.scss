@@ -104,8 +104,10 @@
       background-image: url("../img/bg_about_mobile.png");
       background-repeat: no-repeat;
       margin: 0 auto;
+          margin-top: 0px;
       background-size: contain;
       margin-top: -100px;
+      width: 320px;
   }
 
   .about__block img {

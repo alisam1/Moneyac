@@ -42,7 +42,7 @@
   color: #404040;
 }
 
-.menu__item a:focus
+.menu__item a:hover
 {
   color: #0071ff;
   border-bottom: 1px solid #0071ff;
@@ -51,7 +51,7 @@
 .menu__item a:active
 {
   color: #0071ff;
-  border-bottom: 1px solid #0071ff;
+  border-bottom: 1px solid #044eab;
 }
 
 .page_header__login--tablet
@@ -62,6 +62,16 @@
 .login_auth
 {
   padding-top: 30px;
+}
+
+.login_auth a:hover
+{
+  color: #0071ff;
+}
+
+.login_auth a:active
+{
+  color: #044eab;
 }
 
 .login_auth::before
