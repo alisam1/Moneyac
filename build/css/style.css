@@ -345,7 +345,7 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
-  margin-left: -250px; }
+  margin-left: -420px; }
 
 .menu__item {
   padding-right: 70px;
@@ -387,7 +387,7 @@ template {
   width: 22px;
   height: 20px;
   background-image: url("../img/login_icon.png");
-  margin-left: -185px;
+  margin-left: -360px;
   margin-top: -2px; }
 
 .login_auth a {
@@ -397,7 +397,7 @@ template {
   text-decoration: none;
   cursor: pointer;
   color: #404040;
-  margin-left: -150px; }
+  margin-left: -320px; }
 
 @media screen and (min-width: 768px) and (max-width: 1270px) {
   .menu__list {
@@ -460,7 +460,7 @@ template {
   font-family: 'SF-Black', sans-serif;
   font-size: 40px;
   color: #000;
-  margin-left: 100px; }
+  margin-left: 60px; }
 
 .title__span {
   color: #0071ff; }
@@ -469,7 +469,7 @@ template {
   font-family: "SF-Medium", sans-serif;
   font-size: 18px;
   line-height: 28px;
-  margin-left: 100px; }
+  margin-left: 60px; }
 
 .description__span {
   font-family: "SF-Bold", sans-serif; }
@@ -484,8 +484,8 @@ template {
   font-size: 18px;
   line-height: 28px;
   color: #fff;
-  margin-left: 90px;
-  margin-top: 0px;
+  margin-left: 60px;
+  margin-top: 30px;
   cursor: pointer; }
 
 .main__button:active, .main__button:focus {
@@ -685,15 +685,15 @@ template {
 
 .payment__mocup img {
   position: absolute;
-  left: 0;
-  top: 150px;
-  width: 85%;
+  right: 100px;
+  top: 100px;
+  width: 100%;
   height: auto; }
 
 .payment__description {
   width: 40%;
-  margin-left: 50px;
-  padding-right: 40px;
+  margin-left: 0px;
+  padding-right: 80px;
   margin-bottom: 10px;
   position: relative;
   left: 0px; }
@@ -1124,6 +1124,26 @@ template {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
+.footer__mobile {
+  display: none; }
+
+.footer__desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%; }
+
+.footer__desktop .footer__contacts {
+  position: relative;
+  right: 20px; }
+
 .footer__personal {
   display: none; }
 
@@ -1219,6 +1239,16 @@ template {
   border-bottom: 1px solid #044eab; }
 
 @media screen and (min-width: 768px) and (max-width: 1270px) {
+  .footer__desktop {
+    display: none; }
+  .footer__mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
   .page__footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1308,6 +1338,16 @@ template {
         justify-content: space-around; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__desktop {
+    display: none; }
+  .footer__mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
   .page__footer {
     display: -webkit-box;
     display: -ms-flexbox;
