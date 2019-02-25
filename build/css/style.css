@@ -1746,6 +1746,33 @@ template {
           transform: rotate(45deg);
           -webkit-transform: rotate(45deg); } }
 
+.table table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.table th, td {
+  text-align: left;
+  padding: 8px; }
+
+.table tr:nth-child(even) {
+  background-color: #f0f4f6; }
+
+.table__title {
+  font-family: "SF-Semibold";
+  font-size: 18px;
+  line-height: 28px;
+  color: #404040;
+  text-transform: uppercase; }
+
+.table__info, .table__price {
+  font-family: "SF-Medium";
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040; }
+
 body {
   background-color: #fcfcfc; }
 
